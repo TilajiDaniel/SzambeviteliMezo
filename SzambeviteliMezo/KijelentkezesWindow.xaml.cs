@@ -23,14 +23,7 @@ namespace PetsHotel
 
         private void btnIgen_Click(object sender, RoutedEventArgs e)
         {
-            // Kijelentkezés logika (pl. alkalmazás bezárása)
-            Application.Current.Shutdown();
-        }
-
-        private void btnMegse_Click(object sender, RoutedEventArgs e)
-        {
-            // Ablak bezárása, ha nem szeretne kijelentkezni
-            this.Close();
+            Close();
         }
     }
 }
